@@ -1,0 +1,12 @@
+{
+  "name": "Il Tabellone — Jeopardy d’italiano",
+  "short_name": "Il Tabellone",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#f3ead9",
+  "theme_color": "#8c2d22",
+  "lang": "it",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

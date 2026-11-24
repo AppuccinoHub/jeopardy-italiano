@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8c2d22">
+  <meta name="description" content="Il Tabellone — Jeopardy d’italiano per le classi IV Honors e AP.">
+  <title>Il Tabellone — Jeopardy d’italiano</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="setup-mode">
+  <div id="app">
+    <header class="top">
+      <div class="brand">
+        <span class="eyebrow">IV Honors · AP</span>
+        <h1>Il Tabellone</h1>
+      </div>
+      <div class="center-ornament">
+        <div class="arches" aria-hidden="true"></div>
+        <div class="subtitle">Jeopardy d’italiano</div>
+      </div>
+      <div class="tools"></div>
+    </header>
+    <main class="stage"></main>
+    <aside id="scoreboard" aria-label="Punteggi"></aside>
+    <div id="overlay" aria-hidden="true"></div>
+  </div>
+  <div id="modal"></div>
+  <script src="data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
